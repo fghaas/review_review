@@ -1,1 +1,1 @@
-var multiplex_config = Redirecting to https://reveal-js-multiplex-ccjbegmaii.vercel.app/token (308);
+var multiplex_config = {"secret":null,"socketId":"e4dde07b46379d64"};
