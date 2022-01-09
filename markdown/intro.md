@@ -1,5 +1,5 @@
 # The Review Review
-Comparing code review, testing, staging and deployment across development collaboration platforms
+Comparing code review, testing, staging, and deployment across development collaboration platforms
 
 * * *
 
