@@ -32,17 +32,4 @@ Reveal.initialize({
         url: "https://reveal-multiplex.glitch.me"
     },
 
-
-
-    // Optional libraries used to extend on reveal.js
-    dependencies: [
-        { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-
-        { src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
-
-
-        { src: 'reveal.js-menu/menu.js', async: true, condition: function() { return !!document.body.classList; } },
-
-
-    ]
 });
