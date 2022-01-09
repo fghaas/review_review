@@ -29,7 +29,7 @@ Reveal.initialize({
     multiplex: {
         secret: multiplex_config['secret'],
         id: multiplex_config['socketId'],
-        url: "https://reveal-js-multiplex-ccjbegmaii.now.sh"
+        url: "https://reveal-multiplex.glitch.me"
     },
 
 
