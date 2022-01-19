@@ -129,6 +129,7 @@ understanding.
 So now with all that in mind, we can start talking about tools.
 
 
+
 <!-- .slide: data-timing="20" -->
 # GitHub
 
@@ -258,6 +259,7 @@ course, have the option to [push your packages to PyPI from your
 workflow](https://github.com/marketplace/actions/pypi-publish).
 
 
+
 <!-- .slide: data-timing="5" -->
 # GitLab
 
@@ -360,6 +362,7 @@ status.  including a private PyPI workalike for Python packages.
 In addition, there’s also a separate [container
 registry](https://docs.gitlab.com/ee/user/packages/container_registry/)
 for container images.
+
 
 
 <!-- .slide: data-timing="50" -->
@@ -530,6 +533,7 @@ is something you trigger via a Gerrit keyword (typically `recheck`)
 for Zuul — but only on the pipelines where [your admin has defined
 that
 trigger](https://zuul-ci.org/docs/zuul/3.11.0/admin/drivers/gerrit.html#reference-pipelines-configuration).
+
 
 
 <!-- .slide: data-timing="10" -->
