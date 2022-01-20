@@ -11,6 +11,7 @@ Reveal.initialize({
 
     transition: 'fade',
 
+    totalTime: 23 * 60,
 
     menu: {
         themes: true,
@@ -28,7 +29,8 @@ Reveal.initialize({
 	RevealMarkdown,
 	RevealNotes,
 	RevealHighlight,
-	RevealZoom
+	RevealZoom,
+	RevealMenu
     ],
 
     multiplex: {
