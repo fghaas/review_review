@@ -29,7 +29,8 @@ Reveal.initialize({
 	RevealMarkdown,
 	RevealNotes,
 	RevealHighlight,
-	RevealZoom
+	RevealZoom,
+	RevealMenu
     ],
 
     multiplex: {
