@@ -1,25 +1,25 @@
 <!-- .slide: data-timing="7" -->
-**source code management:** 
+### source code management:
 
 where we store our code,  
 and how we manage access to it
 
 
 <!-- .slide: data-timing="7" -->
-**code review:** 
+### code review:
 
 how we coordinate changes to our code
 
 
 <!-- .slide: data-timing="7" -->
-**testing and gating:** 
+### testing and gating:
 
 how we make sure that those changes  
 don’t break anything
 
 
 <!-- .slide: data-timing="15" -->
-**deployment:** 
+### deployment:
 
 how we push changes and updates out to the consumers of our code
 
@@ -28,12 +28,17 @@ how we push changes and updates out to the consumers of our code
 other machines  (if we’re maintaining an API service).
 
 
-* source code management
-* code review
-* testing and gating
-* deployment
+## Full software engineering cycle  <!-- .element class="hidden" -->
 
-... nearly all of the software engineering cycle. <!-- .element class="fragment" -->
+source code management
+
+code review
+
+testing and gating
+
+deployment
+
+**... nearly all of the software engineering cycle.** <!-- .element class="fragment" -->
 
 <!-- Note -->
 In case it’s not obvious, that means I’m talking about a large
@@ -46,7 +51,7 @@ encompassed in these things.
 And there’s a few things that follow from that:
 
 
-(1) 
+## (1)
 
 Whatever tools we use in order to accomplish these four things,
 they **simultaneously influence and *are* influenced by our
@@ -59,7 +64,7 @@ processes, not the other way around. That’s not how people
 work. Culture and tools always have an influence on each other.
 
 
-(2) 
+## (2)
 
 The scope of these things is **continually expanding** as the field
 evolves.
@@ -79,7 +84,7 @@ a continuous deployment pipeline includes support for
 And that’s just a few examples. I might be forgetting others.
 
 
-(3)
+## (3)
 
 This is a classic example of where we must apply **[systems
 thinking](https://youtu.be/EbLh7rZ3rhU)**.
@@ -366,7 +371,8 @@ for container images.
 
 
 <!-- .slide: data-timing="50" -->
-# Gerrit/Zuul
+# Gerrit
+# Zuul
 
 <!-- Note -->
 Now, it feels a bit awkward to call this one “Gerrit/Zuul” when I’ve
@@ -438,6 +444,7 @@ we know from GitHub and GitLab:
 
 
 <!-- .slide: data-timing="20" -->
+## Every commit must pass CI. <!-- .element class="hidden" -->
 Every commit must pass CI.
 
 <!-- Note -->
