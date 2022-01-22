@@ -43,9 +43,10 @@ deployment
 <!-- Note -->
 In case it’s not obvious, that means I’m talking about a large
 fraction of the software engineering cycle. Not all of it; the part
-involving “fooling around” ([creative play]({filename}creativity.md))
-is perhaps excluded — but substantially everything where people can be
-said to be “developing” in a software engineering organization is
+involving “fooling around” ([creative
+play](https://xahteiwi.eu/blog/2021/11/21/creativity/) is perhaps
+excluded — but substantially everything where people can be said to be
+“building” something in a software engineering organization is
 encompassed in these things.
 
 And there’s a few things that follow from that:
@@ -127,9 +128,10 @@ running your source code management and code review and CI/CD
 platform, but *responsibility* stays with them.
 
 And that responsibility requires both an understanding [of the
-technology itself]({filename}non-technical.md), *and* an understanding
-of how it interacts with your engineering culture. A *profound*
-understanding. 
+technology
+itself](https://xahteiwi.eu/blog/2019/04/21/non-technical/), *and* an
+understanding of how it interacts with your engineering culture. A
+*profound* understanding.
 
 So now with all that in mind, we can start talking about tools.
 
@@ -497,7 +499,7 @@ browsing. Gerrit does include the
 [Gitiles](https://gerrit.googlesource.com/gitiles/) plugin for the
 purpose, but its user experience is rudimentary at best. A popular
 alternative is to deploy Gerrit with [Gitea](https://gitea.io/en-us/),
-but again, that’s not built-in and yor trusted Gerrit/Zuul admin has
+but again, that’s not built-in and your trusted Gerrit/Zuul admin has
 to set it up for you. In addition, while source code browsing in
 GitHub and GitLab is tightly integrated with project permissions, and
 that is also true for Gitiles, there is a certain amount of
