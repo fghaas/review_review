@@ -44,7 +44,7 @@ deployment
 In case it’s not obvious, that means I’m talking about a large
 fraction of the software engineering cycle. Not all of it; the part
 involving “fooling around” ([creative
-play](https://xahteiwi.eu/blog/2021/11/21/creativity/) is perhaps
+play](https://xahteiwi.eu/blog/2021/11/21/creativity/)) is perhaps
 excluded — but substantially everything where people can be said to be
 “building” something in a software engineering organization is
 encompassed in these things.
@@ -133,8 +133,19 @@ itself](https://xahteiwi.eu/blog/2019/04/21/non-technical/), *and* an
 understanding of how it interacts with your engineering culture. A
 *profound* understanding.
 
-So now with all that in mind, we can start talking about tools.
+And I’d go so far as to say if you head up a software engineering
+organization and you *don’t* have a profound understanding of this
+toolchain and its mutual influence on your culture, you should find
+another job.
 
+And if you work *in* a software engineering organization and the
+person in charge lacks precisely that profound understanding, you
+should *also* find another job, because you deserve better.
+
+So having said all that, we can start talking about tools.
+
+And I’m going to talk about three of them, all of which I use in some
+professional capacity on an at-least-weekly basis.
 
 
 <!-- .slide: data-timing="20" -->
@@ -269,6 +280,9 @@ workflow](https://github.com/marketplace/actions/pypi-publish).
 
 <!-- .slide: data-timing="5" -->
 # GitLab
+
+<!-- Note -->
+And with that, I’m moving on to covering GitLab!
 
 
 <!-- .slide: data-timing="90" -->
